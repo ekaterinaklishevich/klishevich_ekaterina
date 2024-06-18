@@ -1,0 +1,154 @@
+body{
+    margin: 0px;
+    background-image: url(rectangle.png);
+    background-repeat: no-repeat;
+}
+.header{
+    background-image: url(bckgr_people.png);
+    background-position: right top;
+    background-repeat: no-repeat;
+}
+.container{
+    margin: 0 auto;
+    width: 1280px;
+    font-family: "Montserrat", sans-serif;
+    overflow: hidden;
+}
+.nav{
+    padding-bottom: 180px;
+}
+.nav_left{
+    float: left;
+    margin-top: 42px;
+}
+.nav_right{
+    float: right;
+    font-weight: 500;
+    font-size: 12px;
+    height: 34px;
+    margin-top: 42px;
+}
+.nav_left img{
+    float: left;
+}
+.splice{
+    font-weight: 650;
+    font-size: 25px;
+    float: left;
+    margin-left: 8px;
+    margin-right: 43px;
+}
+.nav_left ul{
+    float: left;
+    font-weight: 500;
+    font-size: 12px;
+    padding: 0px;
+    margin: 0px;
+}
+.nav_left li{
+    display: inline-block;
+    margin-left: 37px;
+    margin-top: 10px;
+}
+.nav_right button{
+    float: right;
+    font-size: 12px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Montserrat", sans-serif;
+    height: 32px;
+    width: 109px;
+    background-color: rgba(255, 255, 255, 0.26);
+    border-style: none;
+    border-radius: 105px;
+    margin-top: 1px;
+    margin-left: 28px;
+    padding: 0px;
+}
+.log_in{
+    float: left;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+h1{
+    font-weight: 800;
+    font-size: 75px;
+    line-height: 110%;
+    margin: 0px;
+}
+.main p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: #595959;
+    margin-top: 23px;
+    margin-bottom: 0px;
+}
+.main button{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    height: 38px;
+    width: 126px;
+    background-color: #0033FF;
+    border-style: none;
+    border-radius: 105px;
+    margin-top: 34px;
+    padding: 0px;
+}
+.featured{
+    font-weight: 550;
+    font-size: 13px;
+    color: #606060;
+    margin-top: 322px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.img_featured{
+    text-align: center;
+}
+.img_featured img:nth-child(-n+4){
+    margin-right: 79px;
+}
+.sounds{
+    margin-top: 127px;
+    text-align: center;
+}
+.sounds_p1{
+    font-weight: 700;
+    font-size: 16px;
+    color: rgb(96, 96, 96, 0.5);
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.sounds_p2{
+    font-weight: 800;
+    font-size: 48px;
+    margin-top: 0px;
+    margin-bottom: 18px;
+}
+.sounds_p2 span{
+    color: #0033FF;
+}
+.sounds_p3{
+    font-weight: 400;
+    font-size: 18px;
+    color: #958A8A;
+    margin-top: 0px;
+    margin-bottom: 34px;
+    line-height: 170%;
+}
+.sounds button{
+    font-size: 13px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+    color: #FFFFFF;
+    height: 38px;
+    width: 163px;
+    background-color: #0033FF;
+    border-style: none;
+    border-radius: 105px;
+    margin-bottom: 50px;
+    padding: 0px;
+}
