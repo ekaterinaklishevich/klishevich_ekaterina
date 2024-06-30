@@ -1,0 +1,18 @@
+.name{
+    font-size: 24px;
+    font-weight: bold;
+}
+.birthday{
+    color: green
+}
+.dates{
+    color: red;
+    font-weight: bold;
+}
+a{
+    color: blue;
+}
+.text{
+    color: blue;
+    font-style: italic;
+}
