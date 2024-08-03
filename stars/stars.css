@@ -1,0 +1,17 @@
+.container{
+    width: 435px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.star{
+    width: 85px;
+    height: 80px;
+    background-image: url(star0.png);
+    background-repeat: no-repeat;
+}
+.star:hover{
+    background-image: url(star1.png);
+}
+.star:hover ~ .star{
+    background-image: url(star1.png);
+}

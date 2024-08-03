@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet" href="links.css">
+</head>
+<body>
+    <div class="block">
+        <div><a href="https://ru.wikipedia.org/wiki/Ссылка">first link</a></div>
+        <div><a href="https://ru.wikipedia.org/wiki/Ссылка">second link</a></div>
+        <div><a href="https://ru.wikipedia.org/wiki/Ссылка">third link</a></div>
+        <div><a href="https://ru.wikipedia.org/wiki/Ссылка">fourth link</a></div>
+        <div><a href="https://ru.wikipedia.org/wiki/Ссылка">fifth link</a></div>
+    </div>
+    <!-- используем display: inline-block для каждого дива, ссылки разделены с помощью бордеров -->
+    <div class="inline">
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">first link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">second link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">third link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">fourth link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">fifth link</a>
+    </div>
+    <!-- располагаем ссылки <а> без дополнительных дивов, ссылки разделены с помощью бордеров -->
+    <div class="pseudo">
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">first link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">second link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">third link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">fourth link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">fifth link</a>
+    </div>
+    <!-- располагаем ссылки <а>, ссылки разделены с помощью псевдоэлемента ::after с символом '|', но такой символ очень сложно нормально стилизовать -->
+    <div class="pseudo_img">
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">first link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">second link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">third link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">fourth link</a>
+        <a href="https://ru.wikipedia.org/wiki/Ссылка">fifth link</a>
+    </div>
+    <!-- располагаем ссылки <а>, ссылки разделены с помощью псевдоэлемента ::after с изображениями, но изображения могут увеличивать время загрузки страницы -->
+</body>
+</html>

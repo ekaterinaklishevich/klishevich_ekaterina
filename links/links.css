@@ -1,0 +1,56 @@
+a{
+    color: green;
+    font-size: 20px;
+    text-decoration: none;
+}
+a:hover{
+    color: red;
+}
+.block{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.block div{
+    display: inline-block;
+    padding-right: 10px;
+    padding-left: 6px;
+}
+.block div:not(:last-child){
+    border-right: solid red 3px;
+}
+.inline{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.inline a{
+    padding-right: 10px;
+    padding-left: 6px;
+}
+.inline a:not(:last-child){
+    border-right: solid red 3px;
+}
+.pseudo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.pseudo a{
+    padding-right: 5px;
+}
+.pseudo a:not(:last-child)::after{
+    content: '|';
+    color: red;
+    padding-left: 8px;
+}
+.pseudo_img{
+    text-align: center;
+}
+.pseudo_img a{
+    padding-right: 5px;
+}
+.pseudo_img a:not(:last-child)::after{
+    content: url(rectangle.png);
+    padding-left: 8px;
+    position: relative;
+    top: 8px;
+}

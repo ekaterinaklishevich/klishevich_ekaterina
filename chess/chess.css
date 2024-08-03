@@ -1,0 +1,59 @@
+.CHESS{
+  border-collapse: collapse;
+}
+.CHESS td{
+  width: 50px;
+  height: 50px;
+  border: solid gray 1px;
+}
+.CHESS tr:nth-of-type(even) td:nth-of-type(odd){
+    background-color: black;
+}
+.CHESS tr:nth-of-type(odd) td:nth-of-type(even){
+    background-color: black;
+}
+.CHESS tr:first-of-type td:nth-of-type(odd), .CHESS tr:first-of-type td:nth-of-type(even){
+    background-color: rgb(138, 252, 138);
+    height: 25px;
+}
+.CHESS tr:nth-of-type(odd) td:first-of-type, .CHESS tr:nth-of-type(even) td:first-of-type{
+    background-color: rgb(138, 252, 138);
+    width: 25px;
+}
+.CHESS tr:nth-of-type(even) td:last-of-type, .CHESS tr:nth-of-type(odd) td:last-of-type{
+    background-color: rgb(138, 252, 138);
+    width: 25px;
+}
+.CHESS tr:last-of-type td:nth-of-type(even), .CHESS tr:last-of-type td:nth-of-type(odd){
+    background-color: rgb(138, 252, 138);
+    height: 25px;
+}
+h2{
+    margin-top: 100px;
+    margin-bottom: 5px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+p:first-of-type{
+    color: green;
+}
+p:nth-of-type(2){
+    color: red;
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: blue;
+    font-weight: bold;
+}
+a:first-of-type::before{
+    content: url(extref.png);
+}
+p:nth-of-type(3){
+    color: blue;
+    font-style: italic;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
