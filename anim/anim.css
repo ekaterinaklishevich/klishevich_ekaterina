@@ -1,0 +1,62 @@
+.main{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 450;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 250px;
+}
+.container{
+    width: 400px;
+}
+@keyframes circle-to-square {
+    from {
+      width: 50px;
+      height: 50px;
+      background-color: #F498AD;
+    }
+    50% {
+      width: 50px;
+      height: 200px;
+      background-color: #7F6EDB;
+    }
+    to {
+      width: 200px;
+      height: 200px;
+      background-color: #2E9AFF;
+    }
+}
+.anim_block {
+    border-radius: 30px;
+    animation-name: circle-to-square;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in;
+}
+@keyframes slide {
+    from {
+      left: 0;
+      top: 0;
+    }
+    50% {
+      left: 244px;
+      top: 150px;
+    }
+    to {
+      left: 400px;
+      top: 0;
+    }
+}
+.anim_ball{
+    background: #2db34a;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+} 
+.container:nth-of-type(2){
+    position: relative;
+}
+.container:nth-of-type(2):hover .anim_ball{
+    animation: slide 2s linear;
+}
