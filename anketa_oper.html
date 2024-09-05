@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anketa ?:</title>
+</head>
+<body>
+    <script>
+        var lastname = prompt("Введите вашу фамилию:");
+        var firstname = prompt("Введите ваше имя:");
+        var middlename = prompt("Введите ваше отчество:");
+        var age = parseInt(prompt("Введите ваш возраст в годах:"));
+        var genderconfirmed = confirm("Ваш пол - мужской?");
+        var gender = genderconfirmed ? "мужской" : "женский";
+
+        var retired;
+        if ( age >= 60) {
+            retired = "да";
+        } else {
+            retired = "нет";
+        }
+
+        var ageInDays = age * 365;
+        var ageInFiveYears = age + 5;
+
+        alert("ваше ФИО: " + lastname + " " + firstname + " " + middlename +
+              "\n" + "ваш возраст в годах: " + age +
+              "\n" + "ваш возраст в днях: " + ageInDays +
+              "\n" + "через 5 лет вам будет: " + ageInFiveYears +
+              "\n" + "ваш пол: " + gender +
+              "\n" + "вы на пенсии: " + retired);
+    </script>
+</body>
+</html>
